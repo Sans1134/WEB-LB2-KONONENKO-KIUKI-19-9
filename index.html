@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LB2</title>
+        <script src="generator.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Table Generator</h1>
+        </header>
+        <main>
+            <input type="number" id="intervalInput" placeholder="Enter interval (seconds)">
+            
+            <button onclick="startAddingRows()">Start</button>
+            <button onclick="stopAddingRows()">Stop</button>
+
+            <table id="table_1" border="1">
+                <thead>
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <th>Column 3</th>
+                    </tr>
+                </thead>
+                <tbody align="center">
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>
